@@ -1,1 +1,1 @@
-# pages
+# Github Pages website code
