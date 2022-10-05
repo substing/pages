@@ -7,6 +7,10 @@ html, body, h1, h2, h3, h4, h5, h6, div {
   color: cyan;
 }
 
+h2 {
+	text-decoration: underline;
+}
+
 body{
 	background-color: black;
 }
@@ -17,7 +21,10 @@ a {
 	font-size: 20px;
 	font-weight: 900;
 }
-a:hover {color: mediumturquoise;}  
+a:hover {
+	color: mediumturquoise;
+	text-decoration: underline;
+}  
 a:active {color: white;}  
 
 
@@ -29,8 +36,44 @@ a:active {color: white;}
 
 	}
 
-.header-text{
+.header-background-2{
+	height: 100%;	
+ 	background-image: url("beach.gif");
+ 	background-size: cover;
+ 	background-position: right;
 
+
+	}
+
+.header-background-3{
+	height: 100%;	
+ 	background-image: url("computer.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+.header-background-4{
+	height: 100%;	
+ 	background-image: url("surfer.gif");
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+.header-background-5{
+ 	height: 100%;	
+  	background-image: url("rainbow.gif");
+  	background-size: cover;
+  	background-position: bottom;
+  }
+
+.header-background-6{
+ 	height: 100%;	
+  	background-image: url("sunset.gif");
+  	background-size: cover;
+  	background-position: bottom;
+  }
+
+.header-text{
 }
 
 .menu-bar{
@@ -42,6 +85,8 @@ a:active {color: white;}
 }
 
 .home-text{
+	margin-left: 30px;
+	margin-right: 30px;
 	text-align: left;
 	margin-top: 15px;
 }
