@@ -1,0 +1,47 @@
+html, body, h1, h2, h3, h4, h5, h6, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: Andale Mono;
+  text-align: center;
+  color: cyan;
+}
+
+body{
+	background-color: black;
+}
+
+a {
+	color: cyan;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+}
+a:hover {color: mediumturquoise;}  
+a:active {color: white;}  
+
+
+.header-background{
+	height: 100%;	
+ 	background-image: url("city.gif");
+ 	background-size: cover;
+ 	background-position: center;
+
+	}
+
+.header-text{
+
+}
+
+.menu-bar{
+	background-color: black;
+	margin-top: 15px;
+	color: cyan;
+	word-spacing: 30px;
+	text-align: center;
+}
+
+.home-text{
+	text-align: left;
+	margin-top: 15px;
+}
