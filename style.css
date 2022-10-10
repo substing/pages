@@ -9,6 +9,7 @@ html, body, h1, h2, h3, h4, h5, h6, div {
 
 h2 {
 	text-decoration: underline;
+	text-align: center;
 }
 
 body{
@@ -26,7 +27,6 @@ a:hover {
 	text-decoration: underline;
 }  
 a:active {color: white;}  
-
 
 .header-background{
 	height: 100%;	
@@ -73,8 +73,7 @@ a:active {color: white;}
   	background-position: bottom;
   }
 
-.header-text{
-}
+
 
 .menu-bar{
 	background-color: black;
@@ -89,4 +88,5 @@ a:active {color: white;}
 	margin-right: 30px;
 	text-align: left;
 	margin-top: 15px;
+	max-width: 900px;
 }
